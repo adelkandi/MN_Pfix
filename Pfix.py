@@ -1,6 +1,7 @@
-import math 
 
-import matplotlib as plt
+from pdb import line_prefix
+import numpy as np 
+from matplotlib import pyplot as plt
 import matplotlib as plot 
 
 
@@ -23,6 +24,10 @@ print(x1)
 print(i) # print number of iteration  
 
 # plot the functions graph :
+x = np.linspace(1,1,100)
+y = x**3 - (11/6)*(x**2)+x-1/6 # The function we will plot 
+plt.plot(x ,y)
+plt.show()
 
 
 
