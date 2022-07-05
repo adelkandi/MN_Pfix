@@ -26,8 +26,12 @@ print(i) # print number of iteration
 # plot the functions graph :
 x = np.linspace(1,1,100)
 y = x**3 - (11/6)*(x**2)+x-1/6 # The function we will plot 
+plt.subplot(3,1,1)
 plt.plot(x ,y)
+plt.xlabel("axe x")
+plt.ylabel("axe y")
 plt.show()
+
 
 
 
